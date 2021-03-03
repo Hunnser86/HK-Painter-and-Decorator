@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    
     
 }
 
@@ -44,6 +44,7 @@ body{
     padding-bottom: 20px;
     margin-top: 20px;
     
+    
 }
 
 button{
@@ -60,4 +61,21 @@ button a{
     color: aliceblue;
     text-decoration: none;
     
+}
+
+/*-----------------------------Testimonials*/
+
+.testimonials{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.carousel-item img{
+    border-radius: 20px;
+    
+}
+
+.testimonial-btn{
+    margin-top: 20px;
 }
