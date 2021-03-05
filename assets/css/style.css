@@ -12,7 +12,10 @@ body{
     background-position: center;
     background-size: cover;
     
-    
+}
+
+hr{
+    border-bottom: 10px solid aliceblue;
 }
 
 /*-----------------------------Nav*/
@@ -35,7 +38,7 @@ body{
 
 .hero{
     text-align: center;
-    background-image: url(../img/Hero\ image.jpg);
+    background-image: url(../img/Hero\ img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +46,7 @@ body{
     padding-top: 30px;
     padding-bottom: 20px;
     margin-top: 20px;
-    
+    backdrop-filter: brightness(10%);
     
 }
 
@@ -78,4 +81,94 @@ button a{
 
 .testimonial-btn{
     margin-top: 20px;
+}
+
+/*-----------------------------Find us Section*/
+
+.map {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*-----------------------------Footer*/
+
+.contact{
+    text-align: center;
+}
+
+.social{
+    text-align: center;
+}
+
+.social i {
+   font-size: 30px;
+   padding: 10px;
+   color: #13757e;
+}
+
+.copyright{
+    text-align: center;
+}
+
+/*-----------------------------media queries*/
+
+@media only screen and (min-width: 992px) {
+    .hero{
+        height: 40%;
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 25px;
+    }
+    button{
+        margin-top:50px ;
+        height: 80px;
+        width: 150px;
+        font-size: 20px;
+    }
+    .testimonials{
+       padding-top: 50px;
+       padding-bottom: 50px;
+    }
+    .carousel-inner{
+        width: 75%;
+        margin: auto;
+    }
+    .testimonial-btn{
+         margin-top:50px ;
+        height: 80px;
+        width: 200px;
+        font-size: 20px;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+    .nav-ul{
+        line-height: 3;
+    }
+    .hero{
+        height: 50%;
+        
+    }
+        h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 25px;
+    }
+   
+    .testimonials{
+       padding-top: 150px;
+       padding-bottom: 50px;
+    }
+    .carousel-inner{
+        padding-top: 75px;
+        width: 50%;
+        margin: auto;
+    }
+   
 }
