@@ -1,45 +1,115 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# My First Milestone Project
+## HK Painting and Decorating Website.
+---
 
-Welcome Hunnser86,
+This Is my first milestone project in my Diploma in Software Development course.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+This website was designed with many devices in mind, so it needed to be responsive and easy to navigate, for potential customers.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Screenshot of landing page](https://live.staticflickr.com/65535/51012433332_33f87fe115_k.jpg)
 
-`python3 -m http.server`
+---
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## User Experience
+---
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+* ### **User Stories**
+     
+     * **Goals for first time visitors**
+        
+        * First time visitors Should be able to come to the site and immediately understand the purpose of the site.
 
-Another blue button should appear to click: *Open Browser*.
+        * They should be able to easily achieve what they came to do (i.e get a quote for a decorating service).
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        * They should be able to view past works on a portfolio page, which is set out clearly and easy to see.
 
-## Updates Since The Instructional Video
+        * They will also be able to find their social media sites and other contact information.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    * **Goals for returning visitors**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+       * Returning visitors should be able to quickly contact and hire the tradesperson, quickly and hassle free.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* **Design**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+   * **Colours**
+       
+       * The colours that I used, were the two main colours from the businesses logo.  A green/blue colour and a mid tone orange.
+       
+        * The main text color for the body was slategray.  For the headers, I used aliceblue.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+   * **Typography**
 
---------
+       *  I used the font Poppins as the main font for the website, and I used Sans Serif as a secondary font, incase Poppins did not load correctly.  I used Poppins, as it is easy to read and has a soft rounded look, which feels welcoming.
 
-Happy coding!
+   * **Imagery**
+
+     *  The imagery I used on the landing page is contextual to the product being promoted on the site, as it is of a paint roller for the landing page.  
+        I edited the photo on canva and adjusted the brightness, just enough to give some contrast to the text above it, but not so much as to stop the viewer from making it out.
+
+* **Wireframes**
+
+    * I made wire frames for each type of device that would potentially be used when viewing the website.
+
+    ![Screenshot of Wireframe design process](https://live.staticflickr.com/65535/50981167798_be6a15666b_b.jpg)
+
+
+    ![Screenshot of Wireframe for desktop](https://live.staticflickr.com/65535/50981172348_1cbdc9821b_b.jpg)
+
+    
+# Features 
+  * Responsive on different devices and screen sizes.
+
+  * Interactive elements, including button hover and page load animations.
+
+  * A form on the contact page, to allow people to get a quote.
+
+# Technologies Used
+
+## **Launguages**
+
+    
+ * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+ 
+ * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+ ## **Frameworks, Libraries and Programs Used**
+
+ 1. [Google Fonts:](https://fonts.google.com/)
+
+    * I used Google Fonts to link the Poppins font for use on the website. 
+ 
+ 2. [Font Awesome:](https://fontawesome.com/)
+
+    * I used Font Awesome to provide the social media links in the footer of the site.
+
+ 3. [Bootstrap V5.0.0:](https://getbootstrap.com/) 
+
+    * I used bootstrap to help with the responsiveness of the site, and to provide the information for the form on the quotes page.
+
+ 4. [jsdelivr:](https://getbootstrap.com/)   
+
+   * jsdelivr was used to enable GitHub to serve my web files without any configuration.
+
+ 5. [Git:](https://github.com/)  
+
+    * Git was used for version control of the website by using the git commit and git push functions in the terminal, to to ensure any changes I made were not lost and were also meaningful to the development process. It would also help any other developers to assess or make changes in a real world setting.
+
+ 6. [GitHub:](https://github.com/)
+
+    *  GitHub was used to store the code from the project after being pushed from the terminal.
+
+ 7. [Adobe XD:](https://www.adobe.com/uk/products/xd.html)  
+
+    * I used Adobe XD for the Wireframe, to full site visual design process.
+
+
+
+
+
+
