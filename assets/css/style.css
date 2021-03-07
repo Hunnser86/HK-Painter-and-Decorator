@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: rgb(100, 100, 100);
     
 }
 
@@ -121,7 +122,7 @@ button a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #ffffff;
+    color: aliceblue;
     padding-top: 30px;
     padding-bottom: 20px;
     margin-top: 20px;
@@ -154,35 +155,69 @@ button a{
     transition-delay:1ms;  
     z-index: 2;
 }
+
+/*-----------------------------contact me*/
+
+.contact-hero{
+   background-image: url(../img/phone.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   text-align:center;
+   color: aliceblue;
+}
+
+.form-title{
+    margin-bottom: 30px;
+}
+
+.contact-social{
+    text-align: center;
+}
+
+.contact i{
+   font-size: 50px;
+   padding: 10px;
+   color: #13757e;
+   margin-top: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+/*-----------------------------animations and hovers*/
+
+
+
 /*-----------------------------media queries*/
 
 @media only screen and (min-width:320px){
      .hero{
-        height: 40vh !important;
+        height: 45vh !important;
         padding-top: 50px;
+        padding-bottom: 50px;
     }
-     .hero{
-        height: 30vh;
+    
         
-    }
-}
+ }
 @media only screen and (min-width:414px){
      .hero{
         height: 30vh;
-        padding-top: 50px;
-    }
-     .hero{
-        height: 30vh;
         
     }
+   
 }
 @media only screen and (min-width:768px){
      .hero{
         height: 30vh;
         padding-top: 20px;
     }
-     .hero{
-        height: 30vh;
+     .port-hero{
+        margin-bottom: 50px;
         
     }
     .card{
@@ -297,7 +332,11 @@ button a{
         width: 50%;
         margin: auto;
     }
-   
+     .hero{
+        height: 50vh;
+        padding-top: 200px;
+        
+    }
 }
 
 @media only screen and (max-width:1440px){
@@ -310,7 +349,9 @@ button a{
 @media only screen and (max-width: 2560px){
     .hero{
        height: 50vh; 
-       padding-top: 50px;
+       padding-top: 20px;
+       
+
     }
     
     .hero{
