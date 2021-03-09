@@ -7,7 +7,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    background-image: url(img/Background\ image.jpg);
+    background-image: url(img/Backgroundimage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,7 +45,7 @@ hr{
 
 .hero{
     text-align: center;
-    background-image: url(img/Hero\ img.jpg);
+    background-image: url(img/Heroimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
