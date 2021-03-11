@@ -109,6 +109,108 @@ This website was designed with many devices in mind, so it needed to be responsi
     * I used Adobe XD for the Wireframe, to full site visual design process.
 
 
+# Testing
+
+For my testing I used a mixture of automated testing and client based testing.
+
+For the automated testing, I used the following;
+
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+- [W3C Markup Validation]( https://validator.w3.org/)
+
+These were used in particular, to check the validity of the code for my site.
+
+## User Stories testing
+
+  * **First time visitors Should be able to come to the site and immediately understand the purpose of the site.**
+    
+    * The site provides an explaination, letting the customer where they are and
+    what the site is for.  Each page contains a Nav at the top of the screen, and for 
+    each piece of content, there is a button beneath linking to the relevant 
+    page with contextual text. e.g. "View more projects", will take you to the 
+    portfolio page.  This makes it easy for the customer to achieve their goal 
+    for coming to the site.
+
+ * **They should be able to view past works on a portfolio page, which is set out clearly and easy to see.**
+
+   * I went one step further with this, as I used a carousel on the home page, to show
+   some past works, along with some customer testimonials.  There is also a button beneath 
+   it linking to the portfolio page.  The portfolio page is set out simply and clearly, 
+   so the customer can easily view a picture along with an explaination of a past job.  When you hover
+   over the cards (or touch on mobile) they scale up so the customer can focus more on that
+   particular card.
+
+* **They will also be able to find their social media sites and other contact information.**
+
+  * Each page has a footer with all the social media links, displayed as icons, for quick recognition
+  and easy access.  It also contains relevant contact details like phone number and email address.
+
+  * On the home page, there is an iframe with an embedded google map to show the location and allow 
+  the customer to get directions to the company HQ.
+
+* **Returning visitors should be able to quickly contact and hire the tradesperson, quickly and hassle free.**
+  
+  * This is easily achieved, as the site is very easy to navigate.  Having been there once, a customer 
+  is eaily able to navigate around the site, to contact the tradesperson.
+
+* **Mobile screens and responsiveness**
+
+  * I tested the site on all the breakpoints on Google Dev Tools, and the site flowed and scaled
+  up and down nicely.  It was nice and wide, with big text on the larger screens, and then it scaled 
+  down to flow in vertical columns on mobile devices.
+
+* **Known Bugs**
+
+  * The only real bug that I found after testing the site, was that the header on the home and 
+  contact pages seemed to flow out of their columns on a Huawei phone.  However, on all the mobile
+  breakpoints on Google dev tools, it all worked and scaled properly.
+
+
+# Deployment
+
+  * To deploy the website, I used [GitHub](https://github.com/).
+  
+    The process for this was simple.  I used the terminal on the [Gitpod](https://www.gitpod.io/)
+    IDE.  I used the git add . command to add all the files that had been worked on.  Next I used the git commit
+    command, to commit my files ready for deployment, followed by the git push command, to push the code to 
+    [GitHub](https://github.com/).
+
+    I also did this during development, so as not to loose and changes or work that I had done.
+
+  * To run the code locally, go to [My GitHub](https://github.com/Hunnser86/Milestone-project-version-3).
+
+    Go to settings and scroll down to the [GitHub pages] section of the page, and click on the [link](https://hunnser86.github.io/Milestone-project-version-3/).
+
+    Then have fun exploring the site.
+
+
+# Credits
+
+  **Content**
+
+  * All code was written by myself (Rob Hunns)
+
+  **Media**
+
+  * All images for this site were from [Pexels](https://www.pexels.com/).
+
+  * The HK Painting and Decorating logo was made by me using [Photoshop](https://www.adobe.com/uk/products/photoshop.html?mv=search&sdid=HCS3XL5Q&ef_id=Cj0KCQiAnKeCBhDPARIsAFDTLTKXrT7VH6NR1simCWWtdOOtNxR9viBbQy6tSZQqW10b0Ln4-LoTKJYaAipLEALw_wcB:G:s&s_kwcid=AL!3085!3!492471633964!e!!g!!photoshop!9753976727!99414617483&gclid=Cj0KCQiAnKeCBhDPARIsAFDTLTKXrT7VH6NR1simCWWtdOOtNxR9viBbQy6tSZQqW10b0Ln4-LoTKJYaAipLEALw_wcB)
+
+
+  **Acknowledgements**
+
+  * I would first like to acknowledge my mentor Ignatius, for the suppoprt he has
+    given me during the project.  Particularly for giding me towards good documentation
+    for the parts of the project where I needed to do a bit more research.
+
+  * Codeinstitute: For providing such good training and tutorials, giving me the confidence to 
+    keep going and to hone my problenm solving skills.
+    
+      
+
+
+
 
 
 
