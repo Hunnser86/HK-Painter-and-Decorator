@@ -18,7 +18,7 @@
 <body>
     <!--Header Section-->
     <header>
-        <div class="container-fluid">
+        <nav class="container-fluid">
             <div class="row ">
                 <div class="col logo">
                     <a href="#"><img src="assets/img/HKHelenKentPainterDecoratorLogoRGB.png" alt=""
@@ -32,80 +32,139 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
-
-    <div class="container-fluid hero">
-        <div class="row">
-            <div class="col">
+    <main>
+        <div class="container-fluid hero">
+        </div>
+        <hero>
+            <div class="intro">
                 <h1>Helen Kent Painter and Decorator</h1>
                 <p>We carry out all household decorating needs, from interior painting and repairs, to exterior
                     restoration on
                     wooden windows, doors and facia boards. <br>
-                    We provide high quality work, to industry standard and we are fully qualified through City and Guilds.
+                    We provide high quality work, to industry standard and we are fully qualified through City and
+                    Guilds.
                 </p>
-                <a href="contact.html"><button class="cta"> Contact Us </button></a>
+                <a href="contact.html"><button class="button cta"> Contact Us </button></a>
             </div>
-        </div>
-    </div>
-
-    <!--Testimonials-->
-    <div class="container-fluid testimonials">
-        <div class="row">
-            <h1>Testimonials</h1>
-            <p>It's our priority to leave my customers delighted with my work.
-                <br>
-                We am extremely proud of my customer satisfaction rate and would love to add your voice to our
-                testimonials.
-            </p>
-            <div class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/img/Modernyetclassic.jpg" class="img-fluid" alt="A white kitchen">
+        </hero>
+         <hr>
+        <!--Recent projects-->
+        <div class="container-fluid recent-projects">
+            <div>
+                <h1>Recent Projects</h1>
+                <p>Here are a few shots of some recent projects we have been working on.
+                    <br>
+                    Please take a moment to click through the photos and take a closer look.
+                </p>
+                <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+                            class="active button-carousel" aria-current="true" aria-label="Slide 1"></button>
+                        <button class="button-carousel" type="button" data-bs-target="#carouselIndicators"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button class="button-carousel" type="button" data-bs-target="#carouselIndicators"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/exceptionalcustomerservice.jpg" class="img-fluid"
-                            alt="A yellow kitchen">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/img/use-again.jpg" class="d-block w-100"
+                                alt="A blue house with white windows">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/whitemodernkitchen.jpg" class="d-block w-100"
+                                alt="A white modern kitchen">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/yellow-kitchen.jpg" class="d-block w-100" alt="A yellow kitchen">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/useagain.jpg" class="img-fluid" alt="A blue house">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <a href="portfolio.html"><button class="button testimonial-btn"> View more projects </button></a>
+            </div>
+            <hr>
+            <!--Testimonials-->
+            <div class="container-fluid testimonials">
+              <h1>Testimonials</h1>
+              <p>It's our priority to leave my customers delighted with my work.
+                    <br>
+                    We am extremely proud of my customer satisfaction rate and would love to add your voice to our
+                    testimonials.
+                </p>
+             <div class="row">
+                 <div class="col-md-6">
+                     <img class="testimonial-img" src="/assets/img/smiling-lady.jpg" alt="A picture of a smiling lady">
+                 </div>
+                 <div class="col-md-6 customer">
+                     <h2>Would definately use again</h2>
+                     <p>We were so impressed with the work Helen did.  We would definately use her again.
+                         (Mrs Wellby - Christchurch)
+                     </p>
+                 </div>
+                 <div class="col-md-6 ">
+                     <img class="testimonial-img" src="/assets/img/smiling-man.jpg" alt="A picture of a smiling lady">
+                 </div>
+                 <div class="col-md-6 customer">
+                       <h2>Modern yet classic</h2>
+                     <p>Helen helped us create the kitchen of our dreams, with a modern, yet classic
+                         design and all with exceptional customer service.
+                         (Mr Pearson - London)
+                     </p>
+                 </div>
+                 <div class="col-md-6">
+                     <img class="testimonial-img" src="/assets/img/man-in-hat.jpg" alt="A picture of a smiling lady">
+                 </div>
+                 <div class="col-md-6 customer">
+                      <h2>Exceptional customer service</h2>
+                     <p>I was amazed at the lengths Helen went to, to meet my needs.
+                         No request was too much for her.
+                         (Mr Clark - Somerset)
+                     </p>
+                 </div>
+             </div>
+            </div>
+            <hr>
+            <!--Find us section-->
+            <div class="container-fluid map">
+                <div class="row ">
+                    <h1>Find us</h1>
+                    <p>You can find us at <br>
+                        59 Field Mouse House,
+                        Sowton Industrial Estate, Exeter, EX12 2EB</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10104.116516222859!2d-3.4773448040895794!3d50.71939875750612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da3dc9e93053b%3A0xbc1dc6d3ae97fc90!2sSowton%20Industrial%20Estate%2C%20Exeter!5e0!3m2!1sen!2suk!4v1614956679819!5m2!1sen!2suk"
+                        width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
                 </div>
             </div>
-
+            <hr>
         </div>
-        <a href="portfolio.html"><button class="testimonial-btn"> View more projects </button></a>
-    </div>
-     <hr>
-    <!--Find us section-->
-    <div class="container-fluid map">
-        <div class="row ">
-            <h1>Find us</h1>
-            <p>You can find us at <br>
-                59 Field Mouse House,
-                Sowton Industrial Estate, Exeter, EX12 2EB</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10104.116516222859!2d-3.4773448040895794!3d50.71939875750612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da3dc9e93053b%3A0xbc1dc6d3ae97fc90!2sSowton%20Industrial%20Estate%2C%20Exeter!5e0!3m2!1sen!2suk!4v1614956679819!5m2!1sen!2suk"
-                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
-        </div>
-    </div>
-    <hr>
- 
+    </main>
     <!--Footer-->
 
-    <div class="container-fluid footer">
+    <footer class="container-fluid footer">
         <div class="row">
             <div class="col contact">
                 <h1>Contact Us</h1>
                 <p>Phone: 01245 123456 <br>
-                   Email: HKdecorating@gmail.com                
+                    Email: HKdecorating@gmail.com
                 </p>
             </div>
             <div class="col social">
                 <h1>Social Media</h1>
                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/home" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
             </div>
         </div>
@@ -115,22 +174,7 @@
                 <p>Website and branding copyright: Rob Hunns Media 2021, all rights reserved</p>
             </div>
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"

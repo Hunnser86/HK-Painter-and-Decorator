@@ -57,9 +57,18 @@ hr{
     
     
 }
+/*-----------------------------Intro*/
 
+.intro{
+    width: 75%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto ;
+    
+}
 
-button{
+.button{
     background-color: #f58220;
     padding: 10px;
     border: none;
@@ -69,19 +78,34 @@ button{
 
 }
 
-button a{
+.button a{
     color: aliceblue;
     text-decoration: none;
     
 }
 
+/*-----------------------------Recent Projects*/
+
+.recent-projects{
+    width: 75%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto ;
+}
+
+
 /*-----------------------------Testimonials*/
 
-.testimonials{
+.testimonials,.recent-projects{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     animation: fade-and-scale 1.5s ease-in-out;
+}
+
+.testimonials p{
+    margin-bottom: 50px;
 }
 
 .carousel-item img{
@@ -89,9 +113,21 @@ button a{
     
 }
 
+.testimonial-img{
+    position: relative;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
 .testimonial-btn{
     margin-top: 20px;
 }
+
+
 
 /*-----------------------------Find us Section*/
 
@@ -217,7 +253,7 @@ button a{
     transition: color 0.5s ease-in-out;
 }
 
-button:hover{
+.button:hover{
     background-color: #1a9eab;
     transition: all 0.5s ease-in-out;
 }
@@ -321,6 +357,9 @@ button:hover{
         margin-top: 20px;
         margin-right: 5px;
     }
+    .customer{
+        margin-top: 50px;
+    }
 }
 
 
@@ -381,11 +420,22 @@ button:hover{
     .card{
         height: 655px;
     }
+    .customer{
+        margin-top: 80px;
+    }
+    .testimonial-img{
+        width: 50%;
+        margin-bottom: 100px;
+    }
 } 
 @media only screen and (min-width: 1024px){
     .card{
         height: 800px;
         
+    }
+    .testimonial-img{
+        width: 50%;
+        margin-bottom: 100px;
     }
 }
 
@@ -396,6 +446,9 @@ button:hover{
     }
     .card{
         height: 655px;
+    }
+    .customer{
+        margin-top: 60px;
     }
 }
 
@@ -454,4 +507,5 @@ button:hover{
         height: 30vh;
         
     }
+    
 }
