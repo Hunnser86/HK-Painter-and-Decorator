@@ -52,7 +52,7 @@ hr{
     color: aliceblue;
     padding-bottom: 20px;
     margin-top: 20px;
-    height: 50vh;
+    height: 80vh;
     animation: fade-and-scale 1.5s ease-in-out;
     
     
@@ -139,7 +139,7 @@ hr{
 
 /*-----------------------------Footer*/
 
-.contact{
+.contact-footer{
     text-align: center;
 }
 
@@ -215,8 +215,23 @@ hr{
     
 }
 
+.form-box{
+    margin-bottom: 40px;
+}
+
+.contact{
+    padding-top: 150px;
+    margin-bottom: 250px;
+}
+
+.contact-title{
+    margin-top: 150px;
+}
+
 .contact-social{
-    text-align: center;
+   display: inline;
+   justify-content: center;
+   align-items: center;
 }
 
 .contact i{
@@ -233,7 +248,12 @@ hr{
     align-items: flex-start;
 }
 .submit-button{
-    color: aliceblue;
+    background-color: #f58220;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px 5px 6px rgba(0,0,0,0.5);
 }
 
 /*-----------------------------animations and hovers*/
@@ -254,6 +274,10 @@ hr{
 }
 
 .button:hover{
+    background-color: #1a9eab;
+    transition: all 0.5s ease-in-out;
+}
+.submit-button:hover{
     background-color: #1a9eab;
     transition: all 0.5s ease-in-out;
 }
@@ -327,21 +351,36 @@ hr{
 
 /*-----------------------------media queries*/
 
+
+
 @media only screen and (min-width:320px){
      .hero{
         height: 45vh !important;
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
+    .card{
+        width: 95%;
+        margin-left: 10px;
+    }
         
  }
 @media only screen and (min-width:414px){
      .hero{
         height: 30vh;
-        
-    }
+     }
+     .card{
+        width: 95%;
+        margin-left: 10px;
+    }   
+    
    
+}
+@media only screen and (min-width:600px){
+    .card{
+        width: 95%;
+        margin-left: 10px;
+    }
 }
 @media only screen and (min-width:768px){
      .hero{
@@ -353,9 +392,8 @@ hr{
         
     }
     .card{
-        height: 600px;
-        margin-top: 20px;
-        margin-right: 5px;
+        width: 95%;
+        margin-left: 10px;
     }
     .customer{
         margin-top: 50px;
@@ -429,6 +467,11 @@ hr{
     }
 } 
 @media only screen and (min-width: 1024px){
+   
+    .hero{
+        height: 80vh;
+    }
+
     .card{
         height: 800px;
         
@@ -441,7 +484,7 @@ hr{
 
 @media only screen and (min-width: 1375px){
      .hero{
-        height: 30vh;
+        height: 80vh;
         
     }
     .card{
@@ -458,7 +501,7 @@ hr{
         line-height: 3;
     }
     .hero{
-        height: 30vh;
+        height: 80vh;
         
     }
         h1{
@@ -490,7 +533,7 @@ hr{
 
 @media only screen and (max-width:1440px){
      .hero{
-        height: 30vh;
+        height: 80vh;
         padding-top: 50px;
     }
 }
@@ -504,7 +547,7 @@ hr{
     }
     
     .hero{
-        height: 30vh;
+        height: 80vh;
         
     }
     
