@@ -1,9 +1,11 @@
-# My First Milestone Project
-## HK Painting and Decorating Website.
----
+# HK Painting and Decorating Website.
 
-This Is my first milestone project in my Diploma in Software Development course.
 
+This website was made for the ficticious company HK Painting and Decorating.  It is designed to 
+be easy for customers to hire Helen Kent and to view some of her previous work.
+
+It is a simple, three page website, made to be easy to navigate and to give as musch detail as possible, without
+being confusing for the customer.
 
 This website was designed with many devices in mind, so it needed to be responsive and easy to navigate, for potential customers.
 
@@ -56,18 +58,54 @@ This website was designed with many devices in mind, so it needed to be responsi
 
     * I made wire frames for each type of device that would potentially be used when viewing the website.
 
-    ![Screenshot of Wireframe design process](https://live.staticflickr.com/65535/50981167798_be6a15666b_b.jpg)
+    ![Screenshot of Wireframe design process](/assets/Wireframes/Wireframe1.png)
 
 
-    ![Screenshot of Wireframe for desktop](https://live.staticflickr.com/65535/50981172348_1cbdc9821b_b.jpg)
+    ![Screenshot of Wireframe for desktop](/assets/Wireframes/Wireframe2.png)
 
     
 # Features 
-  * Responsive on different devices and screen sizes.
+  ### Page Headers
+     
+* Each page has a header, with a responsive Nav bar, containing links to other pages of the site
+and a logo that brings the user back to the home page.
 
-  * Interactive elements, including button hover and page load animations.
+* Below the Nav bar on each page is a hero with a contextual image and an overview of the page.
 
-  * A form on the contact page, to allow people to get a quote.
+### Carousel
+
+* On the home page there is a carousel that shows some images of previous work.
+
+### Buttons
+
+* On all pages, there are some buttons that relate to the particular part of the page.
+They are linked to the relevant parts of the site, making it easy for the user to navigate to where 
+they need to go.
+
+### iframe
+
+* On the home page, there is an iframe with a google map embedded, to allow to user to find 
+the location of HK painting and decorating.  This can be used without having to leave the page.
+
+### footer
+
+* Each page has a footer at the bottom, that contains contact details and social media links.
+
+### Cards 
+
+* The portfolio page contains cards, to show images of, and descriptions of past work 
+in a tidy and easy to read format.
+
+### Form 
+
+* The contact page contains a form, to allow users to leave their contact details and a description of the project 
+they would like Helen to work on.
+
+### Hover Effects
+
+* All links and buttons have hover effects, ranging from pointer events to colour changes
+to add some interactivity and visual feedback to the user.
+
 
 # Technologies Used
 
@@ -117,9 +155,26 @@ For the automated testing, I used the following;
 
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 
-- [W3C Markup Validation]( https://validator.w3.org/)
+- [W3C Markup Validation](https://validator.w3.org/)
 
 These were used in particular, to check the validity of the code for my site.
+
+### There were three errors on the index.html page.
+ 
+ * The "hero" element was inside the "main" element.
+
+ * The a tag was a descendent of the button tag. 
+
+### There was one error on the porfolio page.
+
+ * The a tag was a descendent of the button tag.
+
+### There were no errors on the Contact page.
+
+### There were no errors in the CSS code.
+
+The first error was simple to fix.  All I needed to change, was the "hero" to a regular div.
+I was unable to fix the button error, as I could not get the button to work after I changed the syntax.
 
 ## User Stories testing
 
