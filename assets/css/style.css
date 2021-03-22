@@ -143,6 +143,7 @@ hr{
     text-align: center;
 }
 
+
 .social{
     text-align: center;
 }
@@ -232,6 +233,7 @@ hr{
    display: inline;
    justify-content: center;
    align-items: center;
+   
 }
 
 .contact i{
@@ -246,6 +248,7 @@ hr{
     color: rgb(100, 100, 100);
     margin-bottom: 20px;
     align-items: flex-start;
+    
 }
 .submit-button{
     background-color: #f58220;
@@ -363,6 +366,21 @@ hr{
         width: 95%;
         margin-left: 10px;
     }
+     .social{
+        margin-top: 20px;
+    }  
+    .contact{
+        font-size: small;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .contact i{
+        font-size: 30px;
+    }
+    .contact h2{
+        font-size: small;
+    }
         
  }
 @media only screen and (min-width:414px){
@@ -372,7 +390,14 @@ hr{
      .card{
         width: 95%;
         margin-left: 10px;
-    }   
+    } 
+    .social{
+        margin-top: 20px;
+    }  
+    .contact{
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
     
    
 }
