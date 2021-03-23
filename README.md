@@ -20,22 +20,26 @@ This website was designed with many devices in mind, so it needed to be responsi
 
 * ### **User Stories**
      
-     * **Goals for first time visitors**
+     * **Site Owner Goals**
         
-        * First time visitors Should be able to come to the site and immediately understand the purpose of the site.
+        *  To give information about their service.
+        *  To show work they have completed in the past.
+        *  To gain more customers.
+        *  Allow customers to leave their contact details in regards to a quote.
+       
+
+
+    * **Visitor Goals**
+
+        * Visitors should be able to quickly contact and hire the tradesperson, quickly and hassle free.
+
+        * Visitors Should be able to come to the site and immediately understand the purpose of the site.
 
         * They should be able to easily achieve what they came to do (i.e get a quote for a decorating service).
 
         * They should be able to view past works on a portfolio page, which is set out clearly and easy to see.
 
         * They will also be able to find their social media sites and other contact information.
-
-
-    * **Goals for returning visitors**
-
-       * Returning visitors should be able to quickly contact and hire the tradesperson, quickly and hassle free.
-
-
 
 * **Design**
 
@@ -157,24 +161,44 @@ For the automated testing, I used the following;
 
 - [W3C Markup Validation](https://validator.w3.org/)
 
-These were used in particular, to check the validity of the code for my site.
+These were used in particular, to check for errors in the code to enable me
+to rectify these and have a fully functioning website.
 
-### There were three errors on the index.html page.
+## There were three errors on the index.html page.
  
  * The "hero" element was inside the "main" element.
 
- * The a tag was a descendent of the button tag. 
+ * The a tag was a descendent of the button tag X 2. 
 
-### There was one error on the porfolio page.
+## There was one error on the porfolio page.
 
  * The a tag was a descendent of the button tag.
 
-### There were no errors on the Contact page.
+## There were no errors on the Contact page.
 
-### There were no errors in the CSS code.
-
+## There were no errors in the CSS code.
+---
 The first error was simple to fix.  All I needed to change, was the "hero" to a regular div.
-I was unable to fix the button error, as I could not get the button to work after I changed the syntax.
+I had some trouble fixing the second error, as I had to restyle the links to look like the buttons I had used 
+initially.  Once I had done this, there were zero errors on all pages. (PHEW!)
+
+---
+
+# Testing on multiple browsers
+
+I tested the site on multiple browsers, to check that everything loaded.  In particular
+I wanted to check the animations, where I needed to ensure I used @-moz- @-webkit and @-o-
+for the keyframes.
+
+To do this I simply visited the site on [Chrome](https://www.google.co.uk/chrome/?brand=FHFK&gclid=EAIaIQobChMIv6_PlqzH7wIVitPtCh2jJQhnEAAYASAAEgImw_D_BwE&gclsrc=aw.ds),
+[Firefox](https://www.mozilla.org/en-GB/firefox/new/) and [Opera](https://www.opera.com) browsers to see if it worked.
+Next I inspected the code and tested the responsiveness on various screen sizes.
+
+All the browsers loaded with no problems and all the responsiveness tests (Viewing the site on various devices and dragging the responsive screen)
+passed with no problems.  As well as testing the site on various browsers and mock up devices on my desktop, I downloaded
+the browsers on my mobile phone and viewed it on their too.  All the browsers loaded with no problems on the mobile versions 
+of the browsers too.
+
 
 ## User Stories testing
 

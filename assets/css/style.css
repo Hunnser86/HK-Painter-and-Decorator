@@ -78,10 +78,10 @@ hr{
 
 }
 
-.button a{
+.intro a{
     color: aliceblue;
     text-decoration: none;
-    
+
 }
 
 /*-----------------------------Recent Projects*/
@@ -92,9 +92,18 @@ hr{
     padding-top: 30px;
     padding-bottom: 30px;
     margin: auto ;
+    margin-bottom: 30px;
 }
 
+.button-col{
+    margin-bottom:30px;
+}
 
+.recent-projects a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
 /*-----------------------------Testimonials*/
 
 .testimonials,.recent-projects{
@@ -190,9 +199,10 @@ hr{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.button .cta{
-    color: aliceblue;
 
+.port-hero a{
+    color: aliceblue;
+    text-decoration: none;
 }
 
 
@@ -258,6 +268,7 @@ hr{
 }
 .submit-button{
     background-color: #f58220;
+    color: aliceblue;
     padding: 10px;
     border: none;
     border-radius: 50px;
