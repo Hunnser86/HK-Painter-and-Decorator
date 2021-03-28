@@ -9,6 +9,8 @@ being confusing for the customer.
 
 This website was designed with many devices in mind, so it needed to be responsive and easy to navigate, for potential customers.
 
+You can view the project on my [Github](https://github.com/Hunnser86/Milestone-project-version-3).
+
 ![Screenshot of landing page](https://live.staticflickr.com/65535/51012433332_33f87fe115_k.jpg)
 
 ---
@@ -200,55 +202,106 @@ the browsers on my mobile phone and viewed it on their too.  All the browsers lo
 of the browsers too.
 
 
-## User Stories testing
+## Site owner Goals testing
 
-  * **First time visitors Should be able to come to the site and immediately understand the purpose of the site.**
+  * **To give information about their service.**
     
-    * The site provides an explaination, letting the customer where they are and
-    what the site is for.  Each page contains a Nav at the top of the screen, and for 
-    each piece of content, there is a button beneath linking to the relevant 
-    page with contextual text. e.g. "View more projects", will take you to the 
-    portfolio page.  This makes it easy for the customer to achieve their goal 
-    for coming to the site.
+    * At the top of the home page, there is a description in the hero section explaining
+      what Helen does.
 
- * **They should be able to view past works on a portfolio page, which is set out clearly and easy to see.**
+    * There is an iframe on the home page that allows users to find the location of the business.
+     This can be used without leaving the current page.  
 
-   * I went one step further with this, as I used a carousel on the home page, to show
-   some past works, along with some customer testimonials.  There is also a button beneath 
-   it linking to the portfolio page.  The portfolio page is set out simply and clearly, 
-   so the customer can easily view a picture along with an explaination of a past job.  When you hover
-   over the cards (or touch on mobile) they scale up so the customer can focus more on that
-   particular card.
+    * There is a footer on each page containing, phone number, email and social media links.
+    ( The social media links open on a new tab, so the user does not have to leave the current page).
+
+    * There are testimonials on the home page, allowing users to understand more about how Helen works. 
+---
+* **To show work they have completed in the past.**
+
+  * There is a carousel on the home page showing some recent projects.  
+  There are controls, allowing some user interaction.
+
+  * There is a portfolio page, detailing some recent projects.  The page displays
+   the projects on cards with an image on top and a description underneath.
+When the user hovers over the cards with the mouse, the card scales up to enable the user 
+to better focus on that particular card.  
+---
+* **To gain more customers.**
+
+  * All the previous information helps to gain more customers, by allowing the users 
+    to make an informed descision on if they would like to hire Helen or not.
+
+  * There is a contact page with a form, allowing users to give Helen their details
+    and a description of the work they need doing.
+
+  * There is a footer on each page providing contact details for Helen, enabling users 
+    to hire her.
+---
+* **Allow customers to leave their contact details in regards to a quote.**
+
+  * There is a contact page containing a form to allow users to leave their name,
+    phone number and email address for Helen.  This not only allows the user to contact Helen, but it 
+    enables Helen to contact the user, if they decide not to leave details about the 
+    job.  The name and email address are both required fields.  This is to allows Helen
+    enough information to be able to contact the user in case the user is unable to leave 
+    a phone number or job description.
+
+## Visitor Goals
+
+* **Visitors should be able to quickly contact and hire the tradesperson, quickly and hassle free.**
+
+  *  There is a footer on each page containing contact details.
+
+  *  There is a contact page with a form allowing the customer to leave their contact
+     information and details about the job.
+
+  * There are buttons on the home page and portfolio page that direct the user to the contact#
+    page.  There is also a link to the contact page in the navbar.
+---
+
+* **Visitors Should be able to come to the site and immediately understand the purpose of the site.**
+
+  * On the home page, there is a logo in the navbar with the words "Painter" and "Decorator".
+
+  * There is a description in the hero section, with a button underneath.  This shows
+    the user what the site is about and it shows them that they can hire Helen.
+---
+
+* **They should be able to easily achieve what they came to do (i.e get a quote for a decorating service).**
+
+  * Straight away on the home page, there is a contact link in the navbar and a button in the
+    hero section saying "contact us".  
+
+  * There is a footer on each page with contact details, allowing the user to contact and hire 
+    Helen.
+
+  * There are testimonials and recent project sections that allow the user to see more about
+    Helen and make an informed descision on whether they would like to hire her.
+
+  *  There is a contact page with a form, allowing the user to leave their details and contact
+     Helen about a job they need doing.
+---
+
+* **They should be able to view past works on a portfolio page, which is set out clearly and easy to see.**
+
+  * There is a portoflio page that shows recent projects.  They are set out on cards, which clearly 
+    shows an image of the project and gives a detailed description below.
+---
 
 * **They will also be able to find their social media sites and other contact information.**
 
-  * Each page has a footer with all the social media links, displayed as icons, for quick recognition
-  and easy access.  It also contains relevant contact details like phone number and email address.
+   * At the bottom of each page, there is a footer that contains Helen's social media links,
+   phone number and email address.
 
-  * On the home page, there is an iframe with an embedded google map to show the location and allow 
-  the customer to get directions to the company HQ.
-
-* **Returning visitors should be able to quickly contact and hire the tradesperson, quickly and hassle free.**
-  
-  * This is easily achieved, as the site is very easy to navigate.  Having been there once, a customer 
-  is eaily able to navigate around the site, to contact the tradesperson.
-
-* **Mobile screens and responsiveness**
-
-  * I tested the site on all the breakpoints on Google Dev Tools, and the site flowed and scaled
-  up and down nicely.  It was nice and wide, with big text on the larger screens, and then it scaled 
-  down to flow in vertical columns on mobile devices.
-
-* **Known Bugs**
-
-  * The only real bug that I found after testing the site, was that the header on the home and 
-  contact pages seemed to flow out of their columns on a Huawei phone.  However, on all the mobile
-  breakpoints on Google dev tools, it all worked and scaled properly.
+   * On the home page, there is an iframe where the user can find the address and location
+     of the business.
+---
 
 
 # Deployment
 
-  * To deploy the website, I used [GitHub](https://github.com/).
+  * To deploy the website, I used [GitHub pages](https://pages.github.com/).
   
     The process for this was simple.  I used the terminal on the [Gitpod](https://www.gitpod.io/)
     IDE.  I used the git add . command to add all the files that had been worked on.  Next I used the git commit
@@ -257,12 +310,31 @@ of the browsers too.
 
     I also did this during development, so as not to loose and changes or work that I had done.
 
-  * To run the code locally, go to [My GitHub](https://github.com/Hunnser86/Milestone-project-version-3).
+  * To link Github pages to the correct files I went to settings and scrolled down to the 
+  [GitHub pages](https://github.com/Hunnser86/Milestone-project-version-3/settings) section of the page.  
+  Next, I clicked the drop down menu on the source section
+  and chose the master branch and the root folder from my repository.  This is how GitHub pages
+  built my site.
 
-    Go to settings and scroll down to the [GitHub pages] section of the page, and click on the [link](https://hunnser86.github.io/Milestone-project-version-3/).
+  * I then waited for the site to be built and followed the link at the top of the section.
+---
 
-    Then have fun exploring the site.
+# Running the site locally
 
+  *  To run the site locally, you will need to clone the GitHub [repository](https://github.com/Hunnser86/Milestone-project-version-3)
+
+  *  To do this, simply go to the GitHub [repository](https://github.com/Hunnser86/Milestone-project-version-3)
+
+     * Next, click the dropdown menu named "code".  This will bring up the clone menu.
+     
+     * Select HTTPS and copy the link.
+
+     * Create a location on your local computer, where you would like to clone the repository.
+
+     * Then on your local terminal use the "git clone" command and paste the link after it and hit return.
+
+     * This will create a file in the location you have created.  This will contain all the files from the
+     repository, allowing you to run the site.
 
 # Credits
 
