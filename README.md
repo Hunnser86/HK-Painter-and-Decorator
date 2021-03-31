@@ -297,7 +297,24 @@ to better focus on that particular card.
    * On the home page, there is an iframe where the user can find the address and location
      of the business.
 ---
+# Client based testing
 
+  * For the client based tests, I sent the link to the website to various people and asked them, to 
+  use it.  I asked the first person to test it on mobile devices such as , mobile phones and tablets.
+  
+    They were asked to check both orientations, to see if the responsiveness worked, and then to load the
+    pages one by one to see if the animations worked.
+    They were also asked to check the site accross Chrome, Firefox and Opera browsers to check compatability.
+
+  * For the next test I asked three people to check the desktop version of the site.  Each of them had a
+  different browser.  One had Chrome, one had Firefox and one had Opera.  
+
+    I asked them to check the animations for the pages and to check for any gramatical errors.
+
+  * After the tests were completed, they reported back that the animations worked fine accross all browsers
+  and the responsiveness worked on all the mobile devices that were used.  However, there were some gramatical errors
+  on the home page and portfolio page.  I had used first person speech rather than the third person.  I 
+  then went through and rectified these errors.    
 
 # Deployment
 
