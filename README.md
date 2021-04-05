@@ -198,7 +198,7 @@ Next I inspected the code and tested the responsiveness on various screen sizes.
 
 All the browsers loaded with no problems and all the responsiveness tests (Viewing the site on various devices and dragging the responsive screen)
 passed with no problems.  As well as testing the site on various browsers and mock up devices on my desktop, I downloaded
-the browsers on my mobile phone and viewed it on their too.  All the browsers loaded with no problems on the mobile versions 
+the browsers on my mobile phone and viewed it on there too.  All the browsers loaded with no problems on the mobile versions 
 of the browsers too.
 
 
