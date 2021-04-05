@@ -9,7 +9,6 @@ being confusing for the customer.
 
 This website was designed with many devices in mind, so it needed to be responsive and easy to navigate, for potential customers.
 
-You can view the project on my [Github](https://github.com/Hunnser86/Milestone-project-version-3).
 
 ![Screenshot of landing page](https://live.staticflickr.com/65535/51012433332_33f87fe115_k.jpg)
 
@@ -42,9 +41,10 @@ You can view the project on my [Github](https://github.com/Hunnser86/Milestone-p
         * They should be able to view past works on a portfolio page, which is set out clearly and easy to see.
 
         * They will also be able to find their social media sites and other contact information.
+---
 
-* **Design**
-
+ ## Design
+---
    * **Colours**
        
        * The colours that I used, were the two main colours from the businesses logo.  A green/blue colour and a mid tone orange.
@@ -155,9 +155,9 @@ to add some interactivity and visual feedback to the user.
 
 # Testing
 
-For my testing I used a mixture of automated testing and client based testing.
+For my testing I used manual testing.
 
-For the automated testing, I used the following;
+For testing the code, I used the following;
 
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 
@@ -180,6 +180,10 @@ to rectify these and have a fully functioning website.
 
 ## There were no errors in the CSS code.
 ---
+## Fixing the errors
+---
+### All The above errors were fixed.
+
 The first error was simple to fix.  All I needed to change, was the "hero" to a regular div.
 I had some trouble fixing the second error, as I had to restyle the links to look like the buttons I had used 
 initially.  Once I had done this, there were zero errors on all pages. (PHEW!)
@@ -187,6 +191,8 @@ initially.  Once I had done this, there were zero errors on all pages. (PHEW!)
 ---
 
 # Testing on multiple browsers
+
+### All browser tests were carried out on desktop, iPad, large Huawei mobile phone and a small iPhone.
 
 I tested the site on multiple browsers, to check that everything loaded.  In particular
 I wanted to check the animations, where I needed to ensure I used @-moz- @-webkit and @-o-
@@ -350,7 +356,7 @@ to better focus on that particular card.
 
      * Then on your local terminal use the "git clone" command and paste the link after it and hit return.
 
-     * This will create a file in the location you have created.  This will contain all the files from the
+     * This will create a folder in the location you have created.  This will contain all the files from the
      repository, allowing you to run the site.
 
 # Credits
